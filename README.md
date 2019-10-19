@@ -23,7 +23,9 @@ Some boorus, such as https://e621.net/ or https://rule34.xxx/ provide an API tha
 ## How to use BooruDowloader
 BooruDownloader needs:
 - The BooruDownloader.jar file.
-- The BooruQueries.txt file. BooruDownloader package includes a sample BooruQueries.txt file. This file is also created if it does not exist.
+- The BooruQueries.txt file. The BooruDownloader realease files include a sample BooruQueries.txt file. A BooruQueries.txt file is created if it does not exist when the program is executed.
+
+Please, use the command line to run the program. You can execute it using the "java -jar ./BooruDownloader.jar" command. If you don't, the program will still run correctly, but you won't be able to see what downloads failed once the program reaches the end of its execution.
 
 ### BooruQueries.txt file format
 #### "#" character
